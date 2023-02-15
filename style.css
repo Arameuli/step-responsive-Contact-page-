@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #c4e0e5;
+
+}
+.all{
+    width: 95%;
+    margin: 15px auto 0;
+    padding: 20px;  
+    box-sizing: border-box;
+    border: 4px solid #09b5d3;
+}
+.content h1{
+    width: 70%;
+    background-color: #09b5d3;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.content{
+    text-align: left;
+}
+.content h2{
+    margin-top: 30px;
+    margin-left: 13em;
+    font-size: 35px;
+}
+.content p{
+    margin-left: 12em;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.content h2{
+    letter-spacing: 1px;
+}
+.s1{
+    display: flex;
+}
+.form{
+    width: 100%;
+    margin: 25px 0;
+    flex: 2;
+}
+.top-form, .middle-form, .bottom-form{
+    width: 100%;
+    min-height: 65px;
+    margin: 10px 0;
+    margin-bottom: 80px;
+}
+.form input[type="text"], .form textarea{
+    padding: 15px 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.form .label{
+    margin-bottom: 5px;
+}
+.top-form .inner-form{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+.top-form .inner-form:last-child{
+    margin-right: 0;
+}
+img{
+    float: right;
+    flex: 1;
+    height: 700px;
+}
+.btn{
+    background-color: #09b5d3;
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+@media screen and (max-width: 860px){
+    .all{
+        margin: 25px auto 0;
+    }
+    .top-form .inner-form{
+        width: 100%;
+        margin: 5px 0;
+    }
+    .content h2{
+        margin-top: 30px;
+        margin-left: 2.1em;
+        font-size: 23px;
+    }
+    .content p{
+        margin-left: 2em;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    img{
+        display: none;
+    }
+}
